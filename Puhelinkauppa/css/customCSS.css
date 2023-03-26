@@ -1,0 +1,77 @@
+#nav-teksti-iso {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
+#nav-teksti-pieni {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#tuote-teksti {
+  font-family: "Roboto Mono", monospace;
+}
+
+#content-teksti-iso {
+  font-family: "Roboto Mono", monospace;
+}
+
+#content-teksti-pieni,
+button,
+.modal-content {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#kuvaus {
+  text-align: left;
+  overflow-wrap: break-word;
+  white-space: pre-line !important;
+  font-size: 0.875em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close {
+  color: #aaaaaa;
+  padding-right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#login .container #login-row #login-column #login-box {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  background-color: #212529;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 10px 20px 20px 20px;
+}
